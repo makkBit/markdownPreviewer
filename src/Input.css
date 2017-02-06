@@ -1,0 +1,30 @@
+textarea{
+	resize: vertical !important;
+	overflow: auto;
+	height: 80vh !important;
+}
+
+
+/* page title */
+h4{
+	font-size: 55px;
+    color:purple;
+    font-family: 'Candal', sans-serif;
+    font-weight:bold;
+    padding: 10px;
+}
+
+hr{
+	border: solid 1px silver;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    textarea {
+        height: 40vh !important;
+    }
+    h4{
+    	font-size: 20px;
+    }
+}
